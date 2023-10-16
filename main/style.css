@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #242424;
+    color: white;
+    font-family: "Press Start 2P", sans-serif;
+    text-align: center;
+}
+
+/* // header */
+.header {
+    position: relative;
+    display: inline-block;
+    width: 100vw;
+    margin-top: 0.35rem;
+}
+
+p {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 0.85rem;
+}
+
+.btn {
+    font-size: 1.23rem;
+    font-family: "Press Start 2P", sans-serif;
+    background-color: white;
+    border: none;
+    padding: 1.2rem 2rem;
+    border-radius: .3rem;
+}
+
+.btn-Again {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.btn:hover {
+    background-color: #7c7c7c;
+}
+
+.tit {
+    font-size: 2.5rem;
+    margin-top: 7rem;
+}
+
+.top {
+    position: relative;
+    align-items: center;
+    padding: 4rem 0;
+    margin: 2rem 0;
+}
+
+.top h1 {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 3.5rem;
+    width: 9.5rem;
+    background-color: white;
+    color: #242424;
+    padding: 2.2rem 0rem;
+}
+
+.main {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.left {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* .left-top {
+    position: relative;
+    width: 239.6px;
+    height: 96px;
+    border: 1px solid yellowgreen;
+} */
+
+.input {
+    width: 15rem;
+    height: 6rem;
+    padding: 2rem 1rem 2rem 0rem;
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Press Start 2P", sans-serif;
+    background-color: transparent;
+    border: 0.3rem solid white;
+    color: white;
+}
+
+
+
+/* .arrow {
+    position: absolute;
+    right: 6%;
+    height: 2rem;
+    width: 1.5rem;
+    border-radius: 50%;
+}
+
+.uparrow {
+    top: 15%;
+}
+
+.downarrow {
+    /* position: absolute; */
+/* bottom: 15%; */
+/* align-items: center; */
+/* right: 6%; */
+/* } */
+
+.btn-check {
+    width: 10.5rem;
+    /* position: absolute; */
+}
+
+.right {
+    flex-basis: 50%;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.right-start {
+    margin-bottom: 4rem;
+    padding: 2rem 0;
+}
+
+.left-start h3 {
+    margin-bottom: 1rem;
+
+}
